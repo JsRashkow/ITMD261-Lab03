@@ -229,6 +229,12 @@ input[type="checkbox"]{
   height: auto;
   float: left;
   display: inline;
+  margin: auto;
+}
+
+label {
+  width: 50%;
+  margin: 0 auto;
 }
 
 /* ===== MODULAR STYLES ===== */
