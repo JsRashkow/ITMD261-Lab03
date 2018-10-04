@@ -196,6 +196,7 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  background-color: #008B8B;
 }
 
 label {
@@ -205,6 +206,7 @@ label {
 
 h1{
   font-family: 'Lora', serif;
+  text-align: center;
 }
 /* ===== LAYOUT STYLES ====== */
 input {
