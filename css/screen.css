@@ -201,11 +201,11 @@ html {
 
 label {
   display: block;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Courier New", Courier, monospace;
 }
 
 h1{
-  font-family: 'Lora', serif;
+  font-family: Impact, Charcoal, sans-serif;
   text-align: center;
 }
 /* ===== LAYOUT STYLES ====== */
@@ -220,13 +220,13 @@ input {
   text-align: center;
 }
 
-#input-age-verifaction, #input-email {
-  width: 25%;
+#input-age-verification, #input-email {
+  width: 50%;
   margin: 0 auto;
 }
 
 #input-submit {
-  width: 10%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -235,9 +235,34 @@ input[type="checkbox"]{
   height: auto;
   float: left;
   display: inline;
-  margin: auto;
+}
+
+p {
+  text-align: center;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  padding: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    min-height: 100%;
+  }
+  
+  input[type="submit"], input[type="email"] {
+    font-size: 6vw;
+    width: 100%;
+	text-align: center;
+  }
 }
 /* ===== MODULAR STYLES ===== */
+form li {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 1.5em;
+  padding: 10px;
+}
 
 /* ===== STATE STYLES ======= */
 
