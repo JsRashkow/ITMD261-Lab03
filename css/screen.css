@@ -200,8 +200,12 @@ html {
 
 label {
   display: block;
+  font-family: 'Roboto Slab', serif;
 }
 
+h1{
+  font-family: 'Lora', serif;
+}
 /* ===== LAYOUT STYLES ====== */
 input {
   box-sizing: border-box;
@@ -231,12 +235,6 @@ input[type="checkbox"]{
   display: inline;
   margin: auto;
 }
-
-label {
-  width: 50%;
-  margin: 0 auto;
-}
-
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
